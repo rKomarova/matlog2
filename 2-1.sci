@@ -15,7 +15,7 @@ function xt=f2(t)
     xt=tan(fi)*t;
 endfunction
 
-t=0:1:800;
+t=0:1:400;
 
 polarplot(tetha,r,style=color('green'));
 plot2d(t,f2(t), style=color('red'));
